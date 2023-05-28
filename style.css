@@ -391,6 +391,90 @@ a:hover {
   margin-left: -12px;
 }
 
+/*****Fifth Section*****/
+
+.fifth__section {
+  margin-bottom: 70px;
+}
+
+.section5 {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.card__img-border {
+  position: relative;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 45px;
+  margin: 0 35px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.05);
+}
+
+.card__img-bg1,
+.card__img-bg2,
+.card__img-bg3 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  width: 547px;
+  height: 368px;
+  overflow: hidden;
+}
+
+.card__img-bg1 {
+  background: url(assets/images/sectionfive1.png);
+}
+
+.card__img-bg2 {
+  background-image: url(assets/images/sectionfive2.png);
+}
+
+.card__img-bg3 {
+  background-image: url(assets/images/sectionfive3.png);
+}
+
+.card__img .black__btn,
+.card_img1__s4 .s4__btn,
+.card_img2__s4 .s4__btn {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  opacity: 0;
+  transform: scale(0);
+  transition: all 0.7s ease;
+}
+
+.card__img:hover .black__btn,
+.card_img1__s4:hover .s4__btn,
+.card_img2__s4:hover .s4__btn {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.card__img-texts p:nth-child(2) {
+  margin-left: 210px;
+}
+
+.paragraph__img {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+}
+
+.card__img-texts h3 {
+  margin-bottom: 18px;
+}
+
+.card__img-texts p {
+  margin-bottom: 29px;
+}
+
 /*****Footer*****/
 
 .footer {
